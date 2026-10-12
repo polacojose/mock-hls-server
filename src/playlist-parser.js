@@ -117,7 +117,7 @@ function parseVariantPlaylist(playlist) {
   };
 }
 
-module.exports = {
+export default {
   parsePlaylist,
   parseVariantPlaylist,
 };

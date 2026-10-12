@@ -4,7 +4,7 @@ const querystring = require("querystring");
 const fetch = require("node-fetch");
 const UrlToolkit = require("url-toolkit");
 const winston = require("winston");
-const PlaylistParser = require("./playlist-parser");
+const PlaylistParser = require("./playlist-parser").default;
 
 const PROXY_PATH = "/proxy";
 const PROXY_QUERY_PARAM = "url";
